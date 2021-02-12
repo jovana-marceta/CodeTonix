@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #DE3747;
+  --secondary-color: #2164A3;
+}
+
+body {
+  /* izbrisi skrol bar */
+  overflow-x: hidden;
+}
+
+.pozadina {
+  background: url('https://i.imgur.com/iuI93FS.jpg') no-repeat center center/cover;
+}
+
+
+/* NAVIGACIONI MENI */
+.navbar .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 1.1rem !important;
+  padding-right: 1.1rem !important;
+}
+
+.navbar .nav-item.active {
+ border-bottom: var(--primary-color) 2px solid;
+}
+
+
+
+/* NASLOVNA SLAJDER */
+.carousel-item {
+  height: 500px;
+}
+
+
+.carousel-slika-1 {
+  background: url('https://i.imgur.com/FpmPFc7.jpg');
+  background-size: cover;
+}
+
+.carousel-slika-2 {
+  background: url('https://i.imgur.com/38XzF4o.jpg');
+  background-size: cover;
+}
+
+.carousel-slika-3 {
+  background: url('https://i.imgur.com/21jOXWL.jpg');
+  background-size: cover;
+}
+
+.carousel-slika-4 {
+  background: url('https://i.imgur.com/6i1umKL.jpg');
+  background-size: cover;
+}
+
+
+
+/* IKONICE POCETNA */
+#pocetna-ikonice .container .row i{
+  color: var(--primary-color);
+}
+
+
+
+/* INFO ZAGLAVLJE */
+#infoZaglavlje {
+  position: relative;
+  min-height: 200px;
+  background: url('https://i.imgur.com/7XBi7Em.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* INFO */
+.h-primarno {
+  color: var(--primary-color);
+}
+
+
+
+/* VIDEO */
+#video {
+  position: relative;
+  min-height: 220px;
+  background: url('https://i.imgur.com/6hA6Wse.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video a {
+  /* the links is icon */
+  color:#DC3545;
+}
+
+.potamnjivanje {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+/* O NAMA */
+.onama-img {
+  margin-top: 25px;
+}
+
+#onama {
+  background: url('https://i.imgur.com/42sajRc.jpg') no-repeat center center/cover;
+}
+
+
+/* PREPORUKE KLIJENATA */
+#preporuke .card {
+  border: #444;
+}
+
+#preporuke a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#preporuke .card-body,
+#preporuke .card-header {
+  background: #C82333; 
+}
+
+
+
+/* FOOTER */
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container > *:last-child {
+  background: #fff;
+  grid-column: 1 / span 4;
+  padding: .5rem;
+  text-align: center;
+  font-size: 0.80rem;
+}
+
+.linkovi li {
+  list-style: none;
+  padding: .5rem 0;
+  border-bottom: #fff dotted 1px;
+  width: 90%;
+}
+
+.linkovi li a:hover {
+  color: red!important;
+}
